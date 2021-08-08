@@ -8,7 +8,11 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
-	testImplementation 'io.projectreactor:reactor-test'	
+	implementation 'org.apache.commons:commons-lang3:3.11'
+	testImplementation 'io.projectreactor:reactor-test'
+
+	implementation project(':api')
+	implementation project(':util')
 }
 
 test {

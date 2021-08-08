@@ -32,3 +32,4 @@ gradle-wrapper.properties
 *.bat
 gradlew
 .idea/*
+**/.idea/*

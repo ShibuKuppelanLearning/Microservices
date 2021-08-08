@@ -1,6 +1,8 @@
 package com.shibu.supermarket.api.core.product;
 
-public class Product {
+import java.io.Serializable;
+
+public class Product  implements Serializable {
 
 	private final int productId;
 	private final String name;
