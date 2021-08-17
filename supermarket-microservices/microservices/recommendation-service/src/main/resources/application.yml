@@ -1,0 +1,7 @@
+server:
+    port: 8080
+    servlet: 
+        context-path: /recommendation-services
+
+spring: 
+    profiles: docker
