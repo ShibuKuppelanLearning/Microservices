@@ -9,6 +9,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	implementation 'org.apache.commons:commons-lang3:3.11'
+	implementation 'org.springdoc:springdoc-openapi-ui:1.5.10'
 	testImplementation 'io.projectreactor:reactor-test'
 
 	implementation project(':api')

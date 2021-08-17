@@ -3,5 +3,5 @@ group = 'com.shibu.supermarket.api'
 apply plugin: "io.spring.dependency-management"
 
 dependencies{
-    implementation 'org.springframework:spring-web:5.1.3.RELEASE'
+    implementation('org.springframework:spring-web:5.1.3.RELEASE')
 }
