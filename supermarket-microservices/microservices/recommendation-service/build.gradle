@@ -9,6 +9,14 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	testImplementation 'io.projectreactor:reactor-test'
+	implementation("org.mapstruct:mapstruct:${mapstructVersion}")
+
+	compileOnly "org.mapstruct:mapstruct-processor:${mapstructVersion}"
+	annotationProcessor "org.mapstruct:mapstruct-processor:${mapstructVersion}"
+	testAnnotationProcessor "org.mapstruct:mapstruct-processor:${mapstructVersion}"
+
+	implementation('org.springframework.boot:spring-boot-starter-data-mongodb')
+	testImplementation('de.flapdoodle.embed:de.flapdoodle.embed.mongo')
 
 	implementation project(':api')
 	implementation project(':util')
